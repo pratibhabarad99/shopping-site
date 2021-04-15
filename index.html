@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="all.css" />
+	<link rel="stylesheet" href="w3css.css">
+	<!-- <link href="webfonts.css" rel="stylesheet" type="text/css"/> -->
+	<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet"> -->
+	<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> -->
+	<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet"> -->
+	<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet"> -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<!-- <link rel="stylesheet" href="owl-carousel/owl.carousel.css"> -->
+	<link rel="stylesheet" href="owl_carousel.min.css"/>
+	<!-- <link rel="stylesheet" href="owl_theme_default.css" /> -->
+	<!-- <script src="assets/owl-carousel/owl.carousel.js"></script> -->
+	
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+	<style>
+		a {
+			text-decoration: none;
+		}
+		a:hover {
+			color: #0056b3;
+			text-decoration: underline;
+		}
+		#item1:hover{text-decoration:none;}
+	</style>
+</head>
+<body>
+	<div id="mySidepanel" class="sidepanel">
+
+
+		<div class="tab">
+			<button class="tablinks" onclick="openCity(event, 'Menu')"><i class="fa fa-bars menubar" ></i> Menu</button>
+			<button class="tablinks" onclick="openCity(event, 'Account')">Account</button>
+			<button class="tablinks" onclick="openCity(event, 'Settings')">Settings</button>
+		</div>
+
+		<div id="Menu" class="tabcontent">
+			<a>HOME</a>
+			<div class="dropdown">
+				<button class="dropbtn" id="dropbtn">CATEGORIES <i class="fas fa-angle-right" id="menubar1"></i>
+				</button>
+				<div class="dropdown-content"  id="dropdown-content" >
+					<a><b>VARIATION 1</b></a>
+					<a>FULL WIDTH BANNER</a>
+					<a>BOX IMAGE BANNER</a>
+					<a>BOX SLIDER BANNER</a>
+					<a>LEFT SIDEBAR</a>
+					<a>RIGHT SIDEBAR</a>
+					<a>PRODUCT FLEX GRID</a>
+					<a>PRODUCT LIST ITEM TYPE</a>
+					<a><b>VARIATION 2</b></a>
+					<a>AJAX INFINITE SCROLL</a>
+					<a>3 COLOMNS PRODUCTS</a>
+					<a>4 COLOMNS PRODUCTS</a>
+					<a>5 COLOMNS PRODUCTS</a>
+					<a>6 COLOMNS PRODUCTS</a>
+					<a>7 COLOMNS PRODUCTS</a>
+					<a>8 COLOMNS PRODUCTS</a>
+
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn" id="dropbtn1">PRODUCTS <i class="fas fa-angle-right" id="menubar1"></i>
+				</button>
+				<div class="dropdown-content"  id="dropdown-content1">
+					<a><b>VARIATIONS</b></a>
+					<a>PRODUCT PAGE WITH SIDEBAR</a>
+					<a>PRODUCT PAGE WITHOUT SIDEBAR</a>
+					<a>HORIZONTAL THUMBNAILS</a>
+					<a>VERTICAL THUMBNAILS</a>
+					<a>ADDTOCART STICKY</a>
+					<a>VERTICAL TABS</a>
+					<a><b>VARIATIONS</b></a>
+					<a>ACCORDION TABS</a>
+					<a>STICKY TABS</a>
+					<a>CONFIGURABLE PRODUCT</a>
+					<a>BUNDLE PRODUCT</a>
+					<a>GROUPED PRODUCT</a>
+					<a>DOWNLOADABLE PRODUCT</a>
+					<a><b>PRODUCT LAYOUT TYPES</b></a>
+					<a>DEFAULT LAYOUT</a>
+					<a>EXTENDED LAYOUTNEW</a>
+					<a>FULL WIDTH LAYOUTNEW</a>
+					<a>GRID IMAGES LAYOUTNE</a>
+					<a>STICKY RIGHT SIDE INFONEW</a>
+					<a>VERTICAL LAYOUT</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn" id="dropbtn2">PAGES <i class="fas fa-angle-right" id="menubar1"></i>
+				</button>
+				<div class="dropdown-content"  id="dropdown-content2">
+					<a>ABOUT US</a>
+					<a>CONTACT US</a>
+					<a>BLOG</a>
+					<a>POST</a>
+					<a>SHOPPING CART</a>
+					<a>CHECK OUT</a>
+					<a>MY ACCOUNT</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn" id="dropbtn3">FEATURES <i class="fas fa-angle-right" id="menubar1"></i>
+				</button>
+				<div class="dropdown-content"  id="dropdown-content3">
+					<a>HEADER TYPES</a>
+					<a>FOOTER TYPES</a>
+				</div>
+			</div>
+			<a>SPECIAL OFFER!</a>
+			<a>BUY PORTO</a>
+		</div>
+		<div id="Account" class="tabcontent">
+			<a>Default Welcome msg!</a>
+			<a>Contact Us</a>
+			<a>compare()</a>
+			<a>Blog</a>
+			<a>Sign In</a>
+			<a>Create an Account</a>
+		</div>
+
+		<div id="Settings" class="tabcontent">
+			<div class="dropdown" id="dropbtn4">
+				<button class="dropbtn">USD  <i class="fas fa-angle-right" id="menubar1"></i>
+				</button>
+				<div class="dropdown-content"  id="dropdown-content4">
+					<a>EUR - Euro</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn" id="dropbtn5">ENGLISH <i class="fas fa-angle-right" id="menubar1"></i>
+				</button>
+				<div class="dropdown-content"  id="dropdown-content5">
+					<a>Add More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="main-container">
+			<div class="head-container">
+				<div class="content-left">
+					<span class="eur">USD</span>
+					<i class="fas fa-angle-down down-angle" style="color:darkgray;"></i>
+
+
+					<i class="fas fa-flag-usa" style="color: #0c0c0c"></i>
+					<span class="fenglish">ENGLISH</span>
+					<i class="fas fa-angle-down down-angle1" style="color:darkgray;"></i>
+
+				</span>
+				<span class="for_chart"><i class="far fa-chart-bar " ></i></span>
+				<span class="fc">compare (13 items)</span>
+			</div>
+			<div class="content-right">
+				<span>Default Welcome Msg!</span>
+				<a style="margin-left: 7px">Contact Us</a>
+				<a style="margin-left: 7px">Blog</a>
+				<a style="margin-left: 7px">Sign-in</a>
+				<a style="margin-left: 7px">Create an account</a>
+			</div>
+		</div>
+		<div class="custom-menu-block4-p-1">
+			<div class="box-model4-p-1">
+				<div class="both-list4-p-1">
+					<div class="fisrt-list4-p-1">
+						<ul class="list-first4-p-1">
+							<li class="f4-p-1">EUR-EURO</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="custom-menu-block4-p-2">
+			<div class="box-model4-p-2">
+				<div class="both-list4-p-2">
+					<div class="fisrt-list4-p-2">
+						<ul class="list-first4-p-2">
+							<li class="f4-p-2">ADD MORE</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="head-content">
+			<strong class="logo">
+				<img src="images/porto-logo.png" alt="logo"/>
+			</strong>
+			<div class="search-container">
+				<form class="searchbar" action="/action">
+					<input type="text" placeholder="Search..." name="search">
+					<div class="mpsearch">
+						<select id="mpsearch-category">
+							<option value="0">All Categories</option>
+							<option value="3">Gear</option>
+							<option value="4">- Bags</option>
+							<option value="5">- Fitness Equipment</option>
+							<option value="6">- Watches</option>
+							<option value="9">- Training</option>
+							<option value="76">- Homepage Products</option>
+							<option value="37">Home &amp; Garden</option>
+							<option value="38">Electronics</option>
+							<option value="54">- Smart TVs</option>
+							<option value="55">- Cameras</option>
+							<option value="56">- Games</option>
+							<option value="41">Fashion</option>
+							<option value="20">- Women</option>
+							<option value="11">- Men</option>
+							<option value="42">- Jewellery</option>
+							<option value="43">- Kids Fashion</option>
+						</select>
+					</div>
+					<button type="button" class="firstbtn">
+						<i id="btn" class="fa fa-search fa fa-2x"></i>
+					</button>
+				</form>
+
+			</div>
+			<div class="custom">
+				<span class="call-now">CALL US NOW<br>
+					<b class="number">+123 5678 890</b>
+				</span></div>
+				<div class="shop-now">
+					<i id="mobileSearch" class="fa fa-search fa fa-2x" value="0"></i>
+					<i id="mobileMenu" class="fas fa-bars fa  fa-2x"></i>
+					<i class="fas fa-shopping-bag fa-2x shop"></i>
+					<i class="fas fa-angle-down angle-down-1"></i>
+
+				</div>
+				<div class="custom-menu-block4-p">
+					<div class="box-model4-p">
+						<div class="both-list4-p">
+							<div class="fisrt-list4-p">
+								<ul class="list-first4-p">
+									<li class="f4-p">You have no items in your shopping cart.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<input type="text" placeholder="Search..." name="search" class="for-search" id="for-search" style="display: none;">
+				</div>
+			</div>
+			<div class="for-menus">
+				<div class="for-mobile-menu">
+
+				</div>
+				<div class="for-menu1">
+					<div class="for-menu2">
+
+						<a id="item1">
+							<i id="menu-icon" class="fas fa-bars fa "></i>
+
+							<span>SHOP BY CATEGORY</span>
+						</a>
+					</div>
+					<div class="content-right2">
+						<a href="" class="content-right-font" >FASHION PROMO</a>
+						<a href="" class="content-right-font">WOMEN SHOES</a>
+						<a href="" class="content-right-font" >50% OFF FASHION</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="menu-container">
+			<div class="d-container" >
+				<div class="drop-menu">
+					<ul class="menus-p">
+
+						<div class="item-1">Home</div>
+						<div id="hover1" class="item-1">Categories<i id="angle1" class="fas fa-angle-right"></i></div>
+						<div class="custom-menu-block">
+							<div class="box-model1">
+								<div class="both-list">
+									<div class="first-list">
+										<ul class="list-first">
+											<li class="f1" id="var1"><b class="b1">VARIATION 1</b></li>
+											<li class="f1">FULL WIDTH BANNER</li>
+											<li class="f1">BOX IMAGE BANER</li>
+											<li class="f1">BOX SLIDER BANNER</li>
+											<li class="f1">LEFT SIDEBAR</li>
+											<li class="f1">RIGHT SIDEBAR</li>
+											<li class="f1">PRODUCT FLEX GRID</li>
+											<li class="f1">PRODUCT LIST ITEM TYPE</li>
+										</ul>
+									</div>
+									<div class="second-list">
+										<ul class="list-second">
+											<li class="f1" id="var2"><b class="b1">VARIATION 2</b></li>
+											<li class="f1">AJAX INFINITE SCROLL <span class="label-new">new</span></li>
+											<li class="f1">3 COLOMNS PRODUCTS</li>
+											<li class="f1">4 COLOMNS PRODUCTS</li>
+											<li class="f1">5 COLOMNS PRODUCTS</li>
+											<li class="f1">6 COLOMNS PRODUCTS</li>
+											<li class="f1">7 COLOMNS PRODUCTS</li>
+											<li class="f1">8 COLOMNS PRODUCTS</li>
+										</ul>
+									</div>
+									<div class="menu-banner">
+										<img src="images/menu-banner.jpg" class="image-3">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="hover2" class="item-1">products<i id="angle2" class="fas fa-angle-right"></i></div>
+						<div class="custom-menu-block2">
+							<div class="box-model2">
+								<div class="both-list2">
+									<div class="first-list2">
+										<ul class="list-first2">
+											<li class="f2" id="var12"><b class="b1">VARIATIONS</b></li>
+											<li class="f2">PRODUCT PAGE WITH SIDEBAR</li>
+											<li class="f2">PRODUCT PAGE WITHOUT SIDEBAR</li>
+											<li class="f2">HORIZONTAL THUMBNAILS</li>
+											<li class="f2">VERTICAL THUMBNAILS</li>
+											<li class="f2">ADDTOCART STICKY</li>
+											<li class="f2">VERTICAL TABS</li>
+										</ul>
+									</div>
+									<div class="second-list2">
+										<ul class="list-second2">
+											<li class="f2" id="var22"><b class="b1">VARIATIONS</b></li>
+											<li class="f2">ACCORDION TABS</li>
+											<li class="f2">STICKY TABS</li>
+											<li class="f2">CONFIGURABLE PRODUCT</li>
+											<li class="f2">BUNDLE PRODUCT</li>
+											<li class="f2">GROUPED PRODUCT</li>
+											<li class="f2">DOWNLOADABLE PRODUCT</li>
+										</ul>
+									</div>
+									<div class="third-list2">
+										<ul class="list-third22">
+											<li class="f2" id="var32"><b class="b1">PRODUCT LAYOUT TYPES</b></li>
+											<li class="f2">DEFAULT LAYOUT</li>
+											<li class="f2">EXTENDED LAYOUTNEW
+												<span class="label-new">new</span>
+											</li>
+											<li class="f2">FULL WIDTH LAYOUTNEW  <span class="label-new">new</span></li>
+											<li class="f2">GRID IMAGES LAYOUTNEW  <span class="label-new">new</span></li>
+											<li class="f2">STICKY RIGHT SIDE INFONEW  <span class="label-new">new</span></li>
+											<li class="f2">VERTICAL LAYOUT <span class="label-new">new</span></li>
+										</ul>
+									</div>
+									<div class="menu-banner2">
+										<img src="images/menu-banner2.jpg" class="image-4">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="hover3" class="item-1">pages<i id="angle3" class="fas fa-angle-right"></i></div>
+						<div class="custom-menu-block3">
+							<div class="box-model3">
+								<div class="both-list3">
+									<div class="fisrt-list3">
+										<ul class="list-first3">
+											<li class="f3"> ABOUT US</li>
+											<li class="f3">CONTACT US</li>
+											<li class="f3">BLOG</li>
+											<li class="f3">POST</li>
+											<li class="f3">SHOPPING CART</li>
+											<li class="f3">CHECKOUT</li>
+											<li class="f3">MY ACCOUNT</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="hover4" class="item-1">Features<i id="angle4" class="fas fa-angle-right"></i></div>
+						<div class="custom-menu-block4">
+							<div class="box-model4">
+								<div class="both-list4">
+									<div class="fisrt-list4">
+										<ul class="list-first4">
+											<li class="f4"> HEADER TYPES</li>
+											<li class="f4">FOOTER TYPES</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item-1">Special offer!</div>
+						<div class="item-1">Buy porto</div>
+					</ul>
+				</div>
+
+				<div class="sandle">
+					<div id="owl-demo1" class="owl-carousel owl-theme">
+						<div class="items-1"><img src="images/sandle.jpg" alt="Owl Image" style="width: 100%; "></div>
+						<div class="items-1"><img src="images/sandle2.jpg" alt="Owl Image" style="width: 100%; "></div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div class="last">
+					<div id="container">
+						<div class="d1">
+							<i id="ship-icon" class="fas fa-shipping-fast fa-2x" style="color: black;"></i>
+							<h3 class="h">FREE SHIPPING & RETURN</h3>
+							<p class="p1">Free shipping on all orders above $99</p>
+						</div>
+						<div class="d2">
+							<i id="dollar-icon" class="fas fa-dollar-sign fa-2x" style="color: black;"></i>
+							<h3 class="hh3">MONEY BACK GUARANTEE</h3>
+							<p class="p2">100% money back guarantee</p>
+						</div>
+						<div class="d3">
+							<i id="clock-icon" class="far fa-clock fa-2x" style="color: black;"></i>
+							<h3 class="hh2">ONLINE SUPPORT 24/7</h3>
+							<p class="p3">Lorem ipsum dolor sit amet</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="second-page">
+				<div class="product-det">
+					<h2 class="filterproduct-title">
+						<span class="content">FEATURE PRODUCTS</span>
+					</h2>
+				</div>
+				<div class="second-container">
+					<div class="imgsrc">
+						<div class="items-img">
+							<div class="img" id="forhover1">
+								<img src="images/p3.jpg" class="forhover">
+								<div class="quickview frhvr quickviewfrhvr">Quickview</div>
+							</div>
+						</div>
+						<div class="cart-detail">
+							<div class="">
+								<a href="" class="first-top">Women Black Top</a>
+							</div>
+							<div class="star">
+								<i class="fa fa-star " aria-hidden="true"></i>
+								<i class="fa fa-star " aria-hidden="true"></i>
+								<i class="fa fa-star " aria-hidden="true"></i>
+								<i class="fa fa-star " aria-hidden="true"></i>
+								<i class="fa fa-star " aria-hidden="true"></i>
+							</div>
+							<div class="price2">
+								<span class="price1">$90.00</span>
+							</div>
+							<div class="forcart">
+								<div class="forcart1">
+									<i class="fas fa-shopping-bag fa-2x  "
+									style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+									<span class="addcart">ADD TO CART</span>
+								</div>
+								<div class="likecompare">
+									<i class="far fa-heart fa-2x like"></i>
+									<i class="fas fa-signal fa-2x compare"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="imgsrc" id="imgsrc1">
+						<div class="items-img1">
+							<div class="img" id="forhover2">
+								<img src="images/p1.jpg" class="forhoverp1">
+								<div class="quickview1 frhvr quickviewfrhvr1">Quickview</div>
+								<div class="product-label">
+									<div class="sale-labelp">-50%</div>
+									<div class="new-labelp">NEW</div>
+								</div>
+							</div>
+							<div class="cart-detail">
+								<div class="">
+									<a href="" class="first-top">Black Blouse</a>
+								</div>
+								<div class="star">
+									<i class="fa fa-star " aria-hidden="true"></i>
+									<i class="fa fa-star " aria-hidden="true"></i>
+									<i class="fa fa-star " aria-hidden="true"></i>
+									<i class="fa fa-star " aria-hidden="true"></i>
+									<i class="fa fa-star " aria-hidden="true"></i>
+								</div>
+								<div class="price2">
+									<span class="price1">$128.00</span>
+								</div>
+								<div class="forcart">
+									<div class="forcart1">
+										<i class="fas fa-shopping-bag fa-2x  "
+										style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+										<span class="addcart">ADD TO CART</span>
+									</div>
+									<div class="likecompare">
+										<i class="far fa-heart fa-2x like"></i>
+										<i class="fas fa-signal fa-2x compare"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="imgsrc">
+						<div class="items-img">
+							<div class="img" id="forhover3">
+								<img src="images/p5.jpg" class="forhoverp2 quickviewfrhvr2">
+								<div class="quickview2 frhvr quickviewfrhvr2">Quickview</div>
+							</div>
+							<div class="cart-detail">
+								<div class="">
+									<a href="" class="first-top">Women Dress</a>
+								</div>
+								<div class="star">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+								</div>
+								<div class="price2">
+									<span class="price1">$199.00</span>
+								</div>
+								<div class="forcart">
+									<div class="forcart1">
+										<i class="fas fa-shopping-bag fa-2x  "
+										style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+										<span class="addcart">ADD TO CART</span>
+									</div>
+									<div class="likecompare">
+										<i class="far fa-heart fa-2x like"></i>
+										<i class="fas fa-signal fa-2x compare"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="imgsrc " id="imgsrc3">
+						<div class="items-img">
+							<div class="img" id="forhover4">
+								<img src="images/p7.jpg" class="forhoverp3 ">
+								<div class="quickview3 frhvr quickviewfrhvr3">Quickview</div>
+							</div>
+							<div class="cart-detail">
+								<div class="">
+									<a href="" class="first-top">Black Utility Top</a>
+								</div>
+								<div class="star">
+									<i class="fa fa-star" aria-hidden="true" fa-2x></i>
+									<i class="fa fa-star" aria-hidden="true" fa-2x></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true" fa-2x></i>
+									<i class="fa fa-star" aria-hidden="true" fa-2x></i>
+								</div>
+								<div class="price2">
+									<span class="price1">$39.00</span>
+								</div>
+								<div class="forcart">
+									<div class="forcart1">
+										<i class="fas fa-shopping-bag fa-2x  "
+										style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+										<span class="addcart">ADD TO CART</span>
+									</div>
+									<div class="likecompare">
+										<i class="far fa-heart fa-2x like"></i>
+										<i class="fas fa-signal fa-2x compare"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="second-container-row">
+					<div class="imgsrc">
+						<div class="">
+							<div class="items-img-p">
+								<div class="img-p" id="forhover1-p">
+									<img src="images/al1.jpg" class="forhover-p">
+									<div class="quickview-p frhvr-p quickviewfrhv-p">Quickview</div>
+								</div>
+							</div>
+							<div class="cart-detail-p">
+								<div class="">
+									<a href="" class="first-top-p">Women Black Top</a>
+								</div>
+								<div class="star-p">
+									<i class="fa fa-star " aria-hidden="true"></i>
+									<i class="fa fa-star " aria-hidden="true"></i>
+									<i class="fa fa-star " aria-hidden="true"></i>
+									<i class="fa fa-star " aria-hidden="true"></i>
+									<i class="fa fa-star " aria-hidden="true"></i>
+								</div>
+								<div class="price2-p">
+									<span class="price1-p">$90.00</span>
+								</div>
+								<div class="forcart-p">
+									<div class="forcart1-p">
+										<i class="fas fa-shopping-bag fa-2x  "
+										style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+										<span class="addcart-p">ADD TO CART</span>
+									</div>
+									<div class="likecompare-p">
+										<i class="far fa-heart fa-2x like-p"></i>
+										<i class="fas fa-signal fa-2x compare-p"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="imgsrc" id="imgsrc2">
+						<div class="items-img1-p">
+							<div class="img" id="forhover2-p">
+								<img src="images/al3.jpg" class="forhoverp1-p">
+								<div class="quickview1-p frhvr-p quickviewfrhvr1-p">Quickview</div>
+								<div class="product-label-p">
+									<div class="sale-labelp-p">-50%</div>
+									<div class="new-labelp-p">NEW</div>
+								</div>
+							</div>
+							<div class="cart-detail-p">
+								<div class="">
+									<a href="" class="first-top">Black Blouse</a>
+								</div>
+								<div class="star-p">
+									<i class="fa fa-star " aria-hidden="true"></i>
+									<i class="fa fa-star " aria-hidden="true"></i>
+									<i class="fa fa-star " aria-hidden="true"></i>
+									<i class="fa fa-star " aria-hidden="true"></i>
+									<i class="fa fa-star " aria-hidden="true"></i>
+								</div>
+								<div class="price2-p">
+									<span class="price1-p">$128.00</span>
+								</div>
+								<div class="forcart-p">
+									<div class="forcart1-p">
+										<i class="fas fa-shopping-bag fa-2x  "
+										style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+										<span class="addcart-p">ADD TO CART</span>
+									</div>
+									<div class="likecompare-p">
+										<i class="far fa-heart fa-2x like-p"></i>
+										<i class="fas fa-signal fa-2x compare-p"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="imgsrc">
+						<div class="items-img-p">
+							<div class="img-p" id="forhover3-p">
+								<img src="images/al5.jpg" class="forhoverp2-p quickviewfrhvr2-p">
+								<div class="quickview2-p frhvr-p quickviewfrhvr2-p">Quickview</div>
+							</div>
+							<div class="cart-detail-p">
+								<div class="">
+									<a href="" class="first-top-p">Women Dress</a>
+								</div>
+								<div class="star-p">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+								</div>
+								<div class="price2-p">
+									<span class="price1-p">$199.00</span>
+								</div>
+								<div class="forcart-p">
+									<div class="forcart1-p">
+										<i class="fas fa-shopping-bag fa-2x  "
+										style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+										<span class="addcart-p">ADD TO CART</span>
+									</div>
+									<div class="likecompare-p">
+										<i class="far fa-heart fa-2x like-p"></i>
+										<i class="fas fa-signal fa-2x compare-p"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="imgsrc" id="imgsrc4">
+						<div class="items-img-p">
+							<div class="img" id="forhover4-p">
+								<img src="images/al6.jpg" class="forhoverp3-p ">
+								<div class="quickview3-p frhvr-p quickviewfrhvr3-p">Quickview</div>
+							</div>
+							<div class="cart-detail-p">
+								<div class="">
+									<a href="" class="first-top-p">Black Utility Top</a>
+								</div>
+								<div class="star-p">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+								</div>
+								<div class="price2-p">
+									<span class="price1-p">$39.00</span>
+								</div>
+								<div class="forcart-p">
+									<div class="forcart1-p">
+										<i class="fas fa-shopping-bag fa-2x  "
+										style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+										<span class="addcart-p">ADD TO CART</span>
+									</div>
+									<div class="likecompare-p">
+										<i class="far fa-heart fa-2x like-p"></i>
+										<i class="fas fa-signal fa-2x compare-p"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="big-img">
+					<img src="images/i5.jpg" class="big-image">
+				</div>
+				<div class="after-big-image">
+					<div class="forfeatures1">
+						<h2 class="featuresfor1">
+							<span>
+								<strong class="forfeatures">FEATURES</strong>
+							</span>
+						</h2>
+						<div class="imgi " id="forhover1i" >
+							<div id="owl-demo2" class="owl-carousel owl-theme">
+								<div class="item">
+									<img src="images/1.jpg" style="width:100%; height: 100%;" alt="Owl Image">
+									<div class="quickcart">
+										<div class="btn_quickview">Quickview</div>
+										<div class="btn_add_to_cart">ADD TO CART</div>
+									</div>
+									<div class="likecompare-img1">
+										<i class="far fa-heart fa-2x like-img1"></i>
+										<i class="fas fa-signal fa-2x compare-img1"></i>
+									</div>
+									<div class="cart-detail-img">
+										<div class="">
+											<a href="" class="first-top-img">Women Black Top</a>
+										</div>
+										<div class="star-img">
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+										</div>
+										<div class="price2-img">
+											<span class="price1-img">$90.00</span>
+										</div>
+									</div>
+								</div>
+								<div class="item"><img src="images/2.jpg" style="width:100%; height: 100%;" alt="Owl Image">
+									<div class="quickcart">
+										<div class="btn_quickview">Quickview</div>
+										<div class="btn_add_to_cart">ADD TO CART</div>
+									</div>
+									<div class="likecompare-img1">
+										<i class="far fa-heart fa-2x like-img1"></i>
+										<i class="fas fa-signal fa-2x compare-img1"></i>
+									</div>
+									<div class="cart-detail-img">
+										<div class="">
+											<a href="" class="first-top-img">Women Black Top</a>
+										</div>
+										<div class="star-img">
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+										</div>
+										<div class="price2-img">
+
+											<span class="price1-img">$90.00</span>
+										</div>
+									</div>
+								</div>
+								<div class="item"><img src="images/3.jpg" style="width:100%; height: 100%;" alt="Owl Image">
+									<div class="quickcart">
+										<div class="btn_quickview">Quickview</div>
+										<div class="btn_add_to_cart">ADD TO CART</div>
+									</div>
+									<div class="likecompare-img1">
+										<i class="far fa-heart fa-2x like-img1"></i>
+										<i class="fas fa-signal fa-2x compare-img1"></i>
+									</div>
+									<div class="cart-detail-img">
+										<div class="">
+											<a href="" class="first-top-img">Women Black Top</a>
+										</div>
+										<div class="star-img">
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+										</div>
+										<div class="price2-img">
+											<span class="price1-img">$90.00</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="forsales1">
+						<h2 class="salesfor1">
+							<span class="forsales">
+								SALES
+							</span>
+						</h2>
+						<div class="imgi" id="forhover2i" style="padding: 3px;">
+							<div id="owl-demo3" class="owl-carousel owl-theme">
+								<div class="item"><img src="images/4.jpg"  style="width:100%; height: 100%;"alt="Owl Image"><div class="quickcart">
+									<div class="btn_quickview">Quickview</div>
+									<div class="btn_add_to_cart">ADD TO CART</div>
+								</div>
+								<div class="likecompare-img2">
+									<i class="far fa-heart fa-2x like-img2"></i>
+									<i class="fas fa-signal fa-2x compare-img2"></i>
+								</div>
+								<div class="cart-detail-img">
+									<div class="">
+										<a href="" class="first-top-img">Women Black Top</a>
+									</div>
+									<div class="star-img">
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+									</div>
+									<div class="price2-img">
+										<span class="price1-img">$90.00</span>
+									</div>
+								</div>
+							</div>
+							<div class="item"><img src="images/5.jpg" style="width:100%; height: 100%;" alt="Owl Image">
+								<div class="quickcart">
+									<div class="btn_quickview">Quickview</div>
+									<div class="btn_add_to_cart">ADD TO CART</div>
+								</div>
+								<div class="likecompare-img2">
+									<i class="far fa-heart fa-2x like-img2"></i>
+									<i class="fas fa-signal fa-2x compare-img2"></i>
+								</div>
+								<div class="cart-detail-img">
+									<div class="">
+										<a href="" class="first-top-img">Women Black Top</a>
+									</div>
+									<div class="star-img">
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+									</div>
+									<div class="price2-img">
+										<span class="price1-img">$90.00</span>
+									</div>
+								</div>
+							</div>
+							<div class="item"><img src="images/6.jpg"  style="width:100%; height: 100%;" alt="Owl Image">
+								<div class="quickcart">
+									<div class="btn_quickview">Quickview</div>
+									<div class="btn_add_to_cart">ADD TO CART</div>
+								</div>
+								<div class="likecompare-img2">
+									<i class="far fa-heart fa-2x like-img2"></i>
+									<i class="fas fa-signal fa-2x compare-img2"></i>
+								</div>
+								<div class="cart-detail-img">
+									<div class="">
+										<a href="" class="first-top-img">Women Black Top</a>
+									</div>
+									<div class="star-img">
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+									</div>
+									<div class="price2-img">
+										<span class="price1-img">$90.00</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fornewarrival1">
+					<h2 class="newarrivalfor1">
+						<span class="fornewarrival">
+							NEW ARRIVAL
+						</span>
+					</h2>
+					<div class="imgi" id="forhover3i">
+						<div id="owl-demo4" class="owl-carousel owl-theme">
+							<div class="item"><img src="images/7.jpg" style="width:100%; height: 100%;" alt="Owl Image">
+								<div class="quickcart">
+									<div class="btn_quickview">Quickview</div>
+									<div class="btn_add_to_cart">ADD TO CART</div>
+								</div>
+								<div class="likecompare-img3">
+									<i class="far fa-heart fa-2x like-img3"></i>
+									<i class="fas fa-signal fa-2x compare-img3"></i>
+								</div>
+								<div class="cart-detail-img">
+									<div class="">
+										<a href="" class="first-top-img">Women Black Top</a>
+									</div>
+									<div class="star-img">
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+										<i class="fa fa-star " aria-hidden="true"></i>
+									</div>
+									<div class="price2-img">
+										<span class="price1-img">$90.00</span>
+									</div>
+								</div></div>
+								<div class="item"><img src="images/8.jpg" style="width:100%; height: 100%;" alt="Owl Image">
+									<div class="quickcart">
+										<div class="btn_quickview">Quickview</div>
+										<div class="btn_add_to_cart">ADD TO CART</div>
+									</div>
+									<div class="likecompare-img3">
+										<i class="far fa-heart fa-2x like-img3"></i>
+										<i class="fas fa-signal fa-2x compare-img3"></i>
+									</div>
+									<div class="cart-detail-img">
+										<div class="">
+											<a href="" class="first-top-img">Women Black Top</a>
+										</div>
+										<div class="star-img">
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+										</div>
+										<div class="price2-img">
+											<span class="price1-img">$90.00</span>
+										</div>
+									</div></div>
+									<div class="item"><img src="images/9.jpg" style="width:100%; height: 100%;" alt="Owl Image">
+										<div class="quickcart">
+											<div class="btn_quickview">Quickview</div>
+											<div class="btn_add_to_cart">ADD TO CART</div>
+										</div>
+										<div class="likecompare-img3">
+											<i class="far fa-heart fa-2x like-img3"></i>
+											<i class="fas fa-signal fa-2x compare-img3"></i>
+										</div>
+										<div class="cart-detail-img">
+											<div class="">
+												<a href="" class="first-top-img">Women Black Top</a>
+											</div>
+											<div class="star-img">
+												<i class="fa fa-star " aria-hidden="true"></i>
+												<i class="fa fa-star " aria-hidden="true"></i>
+												<i class="fa fa-star " aria-hidden="true"></i>
+												<i class="fa fa-star " aria-hidden="true"></i>
+												<i class="fa fa-star " aria-hidden="true"></i>
+											</div>
+											<div class="price2-img">
+												<span class="price1-img">$90.00</span>
+											</div>
+										</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="sec3">
+							<div class="roww">
+								<div class="watch">
+									<a class="imgimg">
+										<img src="images/watch.jpg">
+									</a>
+								</div>
+								<div class="watch">
+									<a class="imgimg">
+										<img src="images/shoes.jpg">
+									</a>
+								</div>
+								<div class="watch">
+									<a class="imgimg">
+										<img src="images/promo.jpg">
+									</a>
+								</div>
+								<div class="watch">
+									<a class="imgimg">
+										<img src="images/chair.jpg">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="fashion-footer-1">
+							<div class="fashion-footer">
+								<h2 class="fashion-selection">
+									<span class="fashion-selection1"><b class="fashion-selection2">FASHION SELECTION</b></span>
+								</h2>
+							</div>
+						</div>
+						<div id="for-slider" class="owl-carousel owl-theme second-container-row-2">
+							<div class="imgsrc-bottom" >
+								<div>
+									<div class="items-img-p-2">
+										<div class="img-p-2" id="forhover1-p-2">
+											<img src="images/p1.jpg" class="forhoverp-p-2">
+											<img src="images/p2.jpg" class="dukhavo">
+											<div class="quickview-p-2 frhvr-p-2 quickviewfrhv-p-2">Quickview</div>
+										</div>
+									</div>
+									<div class="cart-detail-p-2">
+										<div class="">
+											<a href="" class="first-top-p-2">Women Black Top</a>
+										</div>
+										<div class="star-p-2">
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+										</div>
+										<div class="price2-p-2">
+											<span class="price1-p-2">$90.00</span>
+										</div>
+										<div class="forcart-p-2">
+											<div class="forcart1-p-2">
+												<i class="fas fa-shopping-bag fa-2x  "
+												style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+												<span class="addcart-p-2">ADD TO CART</span>
+											</div>
+											<div class="likecompare-p-2">
+												<i class="far fa-heart fa-2x like-p-2"></i>
+												<i class="fas fa-signal fa-2x compare-p-2"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="imgsrc-bottom" >
+								<div class="items-img1-p-2">
+									<div class="img-p-2" id="forhover2-p-2">
+										<img src="images/p3.jpg" class="forhoverp1-p-2">
+										<img src="images/p4.jpg" class="dukhavo">
+										<div class="quickview1-p-2 frhvr-p-2 quickviewfrhvr1-p-2">Quickview</div>
+										<div class="product-label-p-2">
+											<div class="sale-labelp-p-2">-50%</div>
+											<div class="new-labelp-p-2">NEW</div>
+
+										</div>
+									</div>
+									<div class="cart-detail-p-2">
+										<div class="">
+											<a href="" class="first-top-p-2">Black Blouse</a>
+										</div>
+										<div class="star-p-2">
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+										</div>
+										<div class="price2-p-2">
+											<span class="price1-p-2">$128.00</span>
+										</div>
+										<div class="forcart-p-2">
+											<div class="forcart1-p-2">
+												<i class="fas fa-shopping-bag fa-2x  "
+												style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+												<span class="addcart-p-2">ADD TO CART</span>
+											</div>
+											<div class="likecompare-p-2">
+												<i class="far fa-heart fa-2x like-p-2"></i>
+												<i class="fas fa-signal fa-2x compare-p-2"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="imgsrc-bottom">
+								<div class="items-img-p-2">
+									<div class="img-p-2" id="forhover3-p-2">
+										<img src="images/p5.jpg" class="forhoverp2-p-2 ">
+										<img src="images/p6.jpg" class="dukhavo">
+										<div class="quickview2-p-2 frhvr-p-2 quickviewfrhvr2-p-2">Quickview</div>
+									</div>
+									<div class="cart-detail-p-2">
+										<div class="">
+											<a href="" class="first-top-p-2">Women Dress</a>
+										</div>
+										<div class="star-p-2">
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+										</div>
+										<div class="price2-p-2">
+											<span class="price1-p-2">$199.00</span>
+										</div>
+										<div class="forcart-p-2">
+											<div class="forcart1-p-2">
+												<i class="fas fa-shopping-bag fa-2x  "
+												style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+												<span class="addcart-p-2">ADD TO CART</span>
+											</div>
+											<div class="likecompare-p-2">
+												<i class="far fa-heart fa-2x like-p-2"></i>
+												<i class="fas fa-signal fa-2x compare-p-2"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="imgsrc-bottom" >
+								<div class="items-img-p-2">
+									<div class="img-p-2" id="forhover4-p-2">
+										<img src="images/pp.jpg" class="forhoverp3-p-2 ">
+										<img src="images/pp1.jpg" class="dukhavo">
+										<div class="quickview3-p-2 frhvr-p-2 quickviewfrhvr3-p-2">Quickview</div>
+									</div>
+									<div class="cart-detail-p-2">
+										<div class="">
+											<a href="" class="first-top-p-2">Black Utility Top</a>
+										</div>
+										<div class="star-p-2">
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+										</div>
+										<div class="price2-p-2">
+											<span class="price1-p-2">$39.00</span>
+										</div>
+										<div class="forcart-p-2">
+											<div class="forcart1-p-2">
+												<i class="fas fa-shopping-bag fa-2x  "
+												style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+												<span class="addcart-p-2">ADD TO CART</span>
+											</div>
+											<div class="likecompare-p-2">
+												<i class="far fa-heart fa-2x like-p-2"></i>
+												<i class="fas fa-signal fa-2x compare-p-2"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="imgsrc-bottom" >
+								<div>
+									<div class="items-img-p-2">
+										<div class="img-p-2" id="forhover1-p-2">
+											<img src="images/s1.jpg" class="forhoverp-p-2">
+											<div class="quickview-p-2 frhvr-p-2 quickviewfrhv-p-2">Quickview</div>
+										</div>
+									</div>
+									<div class="cart-detail-p-2">
+										<div class="">
+											<a href="" class="first-top-p-2">Women Black Top</a>
+										</div>
+										<div class="star-p-2">
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+										</div>
+										<div class="price2-p-2">
+											<span class="price1-p-2">$90.00</span>
+										</div>
+										<div class="forcart-p-2">
+											<div class="forcart1-p-2">
+												<i class="fas fa-shopping-bag fa-2x  "
+												style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+												<span class="addcart-p-2">ADD TO CART</span>
+											</div>
+											<div class="likecompare-p-2">
+												<i class="far fa-heart fa-2x like-p-2"></i>
+												<i class="fas fa-signal fa-2x compare-p-2"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="imgsrc-bottom" >
+								<div class="items-img1-p-2">
+									<div class="img-p-2" id="forhover2-p-2">
+										<img src="images/s2.jpg" class="forhoverp1-p-2">
+										<div class="quickview1-p-2 frhvr-p-2 quickviewfrhvr1-p-2">Quickview</div>
+										<div class="product-label-p-2">
+											<div class="sale-labelp-p-2">-50%</div>
+											<div class="new-labelp-p-2">NEW</div>
+										</div>
+									</div>
+									<div class="cart-detail-p-2">
+										<div class="">
+											<a href="" class="first-top-p-2">Black Blouse</a>
+										</div>
+										<div class="star-p-2">
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+											<i class="fa fa-star " aria-hidden="true"></i>
+										</div>
+										<div class="price2-p-2">
+											<span class="price1-p-2">$128.00</span>
+										</div>
+										<div class="forcart-p-2">
+											<div class="forcart1-p-2">
+												<i class="fas fa-shopping-bag fa-2x  "
+												style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+												<span class="addcart-p-2">ADD TO CART</span>
+											</div>
+											<div class="likecompare-p-2">
+												<i class="far fa-heart fa-2x like-p-2"></i>
+												<i class="fas fa-signal fa-2x compare-p-2"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="imgsrc-bottom">
+								<div class="items-img-p-2">
+									<div class="img-p-2" id="forhover3-p-2">
+										<img src="images/s3.jpg" class="forhoverp2-p-2 ">
+										<div class="quickview2-p-2 frhvr-p-2 quickviewfrhvr2-p-2">Quickview</div>
+									</div>
+									<div class="cart-detail-p-2">
+										<div class="">
+											<a href="" class="first-top-p-2">Women Dress</a>
+										</div>
+										<div class="star-p-2">
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+										</div>
+										<div class="price2-p-2">
+											<span class="price1-p-2">$199.00</span>
+										</div>
+										<div class="forcart-p-2">
+											<div class="forcart1-p-2">
+												<i class="fas fa-shopping-bag fa-2x  "
+												style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+												<span class="addcart-p-2">ADD TO CART</span>
+											</div>
+											<div class="likecompare-p-2">
+												<i class="far fa-heart fa-2x like-p-2"></i>
+												<i class="fas fa-signal fa-2x compare-p-2"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="imgsrc-bottom" >
+								<div class="items-img-p-2">
+									<div class="img-p-2" id="forhover4-p-2">
+										<img src="images/s4.jpg" class="forhoverp3-p-2 ">
+										<div class="quickview3-p-2 frhvr-p-2 quickviewfrhvr3-p-2">Quickview</div>
+									</div>
+									<div class="cart-detail-p-2">
+										<div class="">
+											<a href="" class="first-top-p-2">Black Utility Top</a>
+										</div>
+										<div class="star-p-2">
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+										</div>
+										<div class="price2-p-2">
+											<span class="price1-p-2">$39.00</span>
+										</div>
+										<div class="forcart-p-2">
+											<div class="forcart1-p-2">
+												<i class="fas fa-shopping-bag fa-2x  "
+												style=" top: 0;bottom: 12px; size: 12px; color: black;"></i>
+												<span class="addcart-p-2">ADD TO CART</span>
+											</div>
+											<div class="likecompare-p-2">
+												<i class="far fa-heart fa-2x like-p-2"></i>
+												<i class="fas fa-signal fa-2x compare-p-2"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="main-container-4">
+						<div class="main-footer">
+							<div class="final-ftr">
+								<div class="final-ftr1">
+									<div CLASS="ftr-head">
+										<span class="fspan">START SELLING TODAY,</span>
+										<b class="fb">BUY PORTO E-COMMERCE</b>
+									</div>
+									<div class="hleft">
+										<span class="ffspan">SUBSCRIBE NEWSLETTER</span>
+										<div class="email-addr">
+											<input type="email" name="E-mail" id="email-box" placeholder="Email-adress">
+											<button id="sbbtn" title="subscribe" type="submit">
+												<span class="fffspan">Subscribe</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="middle-footer">
+								<div class="porto-img">
+									<img src="images/whiteporto.png" class="wp">
+								</div>
+								<div class="mid">
+									<ul CLASS="footer-ul">
+										<li>
+											<i class="for-space">&nbsp;</i>
+											<p>
+												<b>ADDRESS:</b>
+												<br>
+												"123 Street Name, City, England"
+											</p>
+										</li>
+										<li>
+											<i class="for-space">&nbsp;</i>
+											<p>
+												<b>PHONE:</b>
+												<br>
+												"(123) 456-7890"
+											</p>
+										</li>
+										<li>
+											<i class="for-space">&nbsp;</i>
+											<p>
+												<b>EMAIL:</b>
+												<br>
+												<a href="mailto:mail@example.com" class="mail-1">mail@example.com</a>
+											</p>
+										</li>
+										<li>
+											<i class="for-space">&nbsp;</i>
+											<p>
+												<b>WORKING DAYS/HOURS:</b>
+												<br class="for-break">
+												"Mon - Sun / 9:00AM - 8:00PM"
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="mid-2">
+									<div class="strng">
+										<strong>MAIN FEATURES</strong>
+									</div>
+									<div class="lilast">
+										<ul class="flist">
+											<li>
+												<a href="">Super Fast Magento Theme</a>
+												<a href="">Fisrt Fully Working Ajax Theme</a>
+												<a href="">20 Unique Homepage Layouts</a>
+												<a href="">Powerful Admin Panel</a>
+												<a href="">Mobile & Retina Optimize</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="mid-3">
+									<div class="strng">
+										<strong>MY ACCOUNT</strong>
+									</div>
+									<div class="lilast">
+										<ul class="flist">
+											<li>
+												<a href="">About us</a>
+												<a href="">Contact us</a>
+												<a href="">My account</a>
+												<a href="">Order history</a>
+												<a href="">Advance search</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="footer-botm">
+							<div class="foradr1">
+								<div class="custom-block">
+									<div class="paypal">
+										<img src="images/paypal.png">
+									</div>
+									<div class="ftl">
+										<i class="fab fa-facebook-square fa-3x" id="fb"></i>
+										<i class="fab fa-twitter-square fa-3x" id="twt"></i>
+										<i class="fab fa-linkedin fa-3x" id="ln"></i>
+									</div>
+								</div>
+								<div class="foradr">
+									<div class="addr">© Porto eCommerce. 2020. All Rights Reserved</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button id="btnscrolltop">
+						<i class="fa fa-chevron-up" aria-hidden="true"></i>
+					</button>
+				</div>
+			</div>
+			<script src="jquery.min.js"></script>
+			<script src="owl_carousel.min.js"></script>
+			<script src="myscripts.js"></script>
+		</body>
+		</html>
